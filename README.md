@@ -23,13 +23,22 @@ Welcome to CatBlogger, a platform where users can share their thoughts, experien
    git clone https://github.com/your-username/blog_123.git
    cd blog_123
 # Install backend dependencies
-cd backend
-npm init
+           ```bash
+         cd backend
+         npm init
 
 # Install frontend dependencies
-cd ../frontend
-npm init
+               ```bash
+              cd ../frontend
+              npm init
 
 2. **Run on main branch:**
    ```bash
    npm start
+
+#Notes
+
+- **Install nodemodules:** Download all packages associated with frontend and backend in their respective directory .
+- **Install on main Directory:** Install Concurrently library to run frontend and backend at a time on main branch.
+- **Update the packageJSON:** Update the packageJson file as per given file.
+   
