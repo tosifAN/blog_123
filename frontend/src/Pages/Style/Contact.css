@@ -1,0 +1,32 @@
+/* Contact.css */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .contact-method {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #007bff;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

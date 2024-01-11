@@ -1,0 +1,34 @@
+{
+  "name": "yourblog",
+  "version": "1.0.0",
+  "description": "this is a website that allow users to write their own blog",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm run start",
+    "backend": " cd backend && npm run start",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "your",
+    "favourite",
+    "sucess",
+    "inspiration",
+    "intern",
+    "fte",
+    "experience",
+    "bug",
+    "error",
+    "message",
+    "reply"
+  ],
+  "author": "Tosif Ansari",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.21.1"
+  }
+}

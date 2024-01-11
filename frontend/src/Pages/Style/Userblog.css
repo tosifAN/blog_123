@@ -1,0 +1,46 @@
+/* Blog.css */
+
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .create-blog-section, .user-blogs-section {
+    margin-bottom: 40px;
+  }
+  
+  .create-blog-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-blog-form label {
+    margin-bottom: 10px;
+  }
+  
+  .create-blog-form input,
+  .create-blog-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .blog-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .blog-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Add more styles based on your design preferences */
+  
