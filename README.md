@@ -20,7 +20,7 @@ Welcome to CatBlogger, a platform where users can share their thoughts, experien
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/blog_123.git
+   git clone https://github.com/tosifAN/blog_123.git
    cd blog_123
 # Install backend dependencies
            ```bash
